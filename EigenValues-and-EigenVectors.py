@@ -1,13 +1,13 @@
 """
-eigen_video.py - Eigenvalues & Eigenvectors (M3, Linear Algebra)
+EigenValues-and-EigenVectors.py - Eigenvalues & Eigenvectors (M3, Linear Algebra)
 
 An educational Manim video for first-year engineering students.
 
 Render the whole video (1080p, 30 fps):
-    manim -qh --fps 30 eigen_video.py FullVideo
+    manim -qh --fps 30 EigenValues-and-EigenVectors.py FullVideo
 
 Render one part on its own for testing (480p, fast):
-    manim -ql eigen_video.py Part05Sweep
+    manim -ql EigenValues-and-EigenVectors.py Part05Sweep
 
 Manim also writes FullVideo.srt next to the MP4. It holds every narration
 line with its start and end time, so the voice-over can be recorded and
@@ -24,8 +24,8 @@ import numpy as np
 # 1. CONSTANTS - student details, colours and the running example
 # ============================================================================
 
-STUDENT_NAME = ""    # fill in your name
-URN = ""             # fill in your URN
+STUDENT_NAME = "Divyatmaj Tamhankar"
+URN = "E25B070629"
 BATCH = "Neumann"
 LAB = "Memory"
 

@@ -1,0 +1,10 @@
+# Python packages needed to render the video:
+#   pip install -r requirements.txt
+#
+# Manim also needs these, installed separately (not through pip):
+#   - FFmpeg
+#   - a LaTeX distribution (MacTeX / TeX Live / MiKTeX)
+# See https://docs.manim.community/en/stable/installation.html
+
+manim>=0.18
+numpy

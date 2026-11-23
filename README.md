@@ -207,6 +207,7 @@ $$
 .
 ├── EigenValues-and-EigenVectors.py   # complete Manim source for the whole video
 ├── eigen_video_final.mp4             # final rendered video (1920×1080, 16:9, 6:29)
+├── requirements.txt                  # Python dependencies (manim, numpy)
 ├── assets/                           # stills and GIFs used in this README
 └── README.md
 ```
@@ -229,7 +230,7 @@ Each `say()` call also writes a subtitle, so Manim outputs a `FullVideo.srt` wit
 **Requirements:** Python 3.10+, [Manim Community Edition](https://docs.manim.community/en/stable/installation.html) v0.18+, a LaTeX distribution (MacTeX / TeX Live / MiKTeX) and FFmpeg.
 
 ```bash
-pip install manim
+pip install -r requirements.txt
 
 # full video, 1080p at 30 fps
 manim -qh --fps 30 EigenValues-and-EigenVectors.py FullVideo

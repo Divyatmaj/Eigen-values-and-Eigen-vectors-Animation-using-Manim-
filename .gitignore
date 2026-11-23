@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Manim render output (the final video is committed separately)
+media/
+*.srt
+
+# macOS
+.DS_Store
+
+# Course instructions (not part of the submission)
+M3 Animation Video Project Instructions.pdf
